@@ -18,18 +18,18 @@
 
 <div id="a0"></div>
 
-#**androidScore**
+# **androidScore**
 
 打开安卓市场应用页
 androidScore({params})
 
-##params
+## params
 
 pkg:
 -类型：字符串
 -描述：应用的包名
 
-##示例代码
+## 示例代码
 
 ```js
 var mMarket = api.require('mMarket');
@@ -39,19 +39,19 @@ var param = {
 mMarket.androidScore(param);
 ```
 
-##可用性
+## 可用性
 
 Android系统
 可提供的1.0.0及更高版本
 
 <div id="a1"></div>
 
-#**iosShowStar**
+# **iosShowStar**
 
 打开当前应用的应用内评分
 iosShowStar({params})
 
-##params
+## params
 
 appid:
 -类型：字符串
@@ -59,7 +59,7 @@ appid:
 -例子：https://itunes.apple.com/cn/app/id1044283059   1044283059就是应用ID
 
 
-##示例代码
+## 示例代码
 
 ```js
 var mMarket = api.require('mMarket');
@@ -69,19 +69,19 @@ var param = {
 mMarket.iosShowStar(param);
 ```
 
-##可用性
+## 可用性
 
 iOS系统
 可提供的1.0.0及更高版本
 
 <div id="a2"></div>
 
-#**iosShowComment**
+# **iosShowComment**
 
 打开App Store应用评分评论页
 iosShowComment({params})
 
-##params
+## params
 
 appid:
 -类型：字符串
@@ -89,7 +89,7 @@ appid:
 -例子：https://itunes.apple.com/cn/app/id1044283059   1044283059就是应用ID
 
 
-##示例代码
+## 示例代码
 
 ```js
 var mMarket = api.require('mMarket');
@@ -99,7 +99,7 @@ var param = {
 mMarket.iosShowComment(param);
 ```
 
-##可用性
+## 可用性
 
 iOS系统
 可提供的1.0.0及更高版本
@@ -107,12 +107,12 @@ iOS系统
 
 <div id="a3"></div>
 
-#**iosShowDetail**
+# **iosShowDetail**
 
 打开App Store应用详情
 iosShowDetail({params})
 
-##params
+## params
 
 appid:
 -类型：字符串
@@ -120,7 +120,7 @@ appid:
 -例子：https://itunes.apple.com/cn/app/id1044283059   1044283059就是应用ID
 
 
-##示例代码
+## 示例代码
 
 ```js
 var mMarket = api.require('mMarket');
@@ -130,7 +130,7 @@ var param = {
 mMarket.iosShowComment(param);
 ```
 
-##可用性
+## 可用性
 
 iOS系统
 可提供的1.0.0及更高版本
