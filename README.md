@@ -17,6 +17,7 @@
 此模块可以跳转至应用商店具体应用详情，可以调用iOS打分，APP排名利器
 
 <div id="a0"></div>
+
 #**androidScore**
 
 打开安卓市场应用页
@@ -39,11 +40,14 @@ mMarket.androidScore(param);
 ```
 
 ##可用性
+
 Android系统
 可提供的1.0.0及更高版本
 
 <div id="a1"></div>
+
 #**iosShowStar**
+
 打开当前应用的应用内评分
 iosShowStar({params})
 
@@ -71,6 +75,7 @@ iOS系统
 可提供的1.0.0及更高版本
 
 <div id="a2"></div>
+
 #**iosShowComment**
 
 打开App Store应用评分评论页
@@ -95,11 +100,13 @@ mMarket.iosShowComment(param);
 ```
 
 ##可用性
+
 iOS系统
 可提供的1.0.0及更高版本
 
 
 <div id="a3"></div>
+
 #**iosShowDetail**
 
 打开App Store应用详情
@@ -124,5 +131,6 @@ mMarket.iosShowComment(param);
 ```
 
 ##可用性
+
 iOS系统
 可提供的1.0.0及更高版本
